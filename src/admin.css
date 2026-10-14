@@ -1,0 +1,56 @@
+.admin-wrap { width: min(100% - 40px, 900px); margin: 48px auto 64px; }
+.admin-wrap h1 { font-size: 48px; letter-spacing: -1.5px; line-height: 1.15; }
+.admin-intro { margin-top: 10px; color: var(--muted); }
+.admin-login { max-width: 440px; margin: 52px auto; }
+.admin-login form { margin-top: 32px; }
+.admin-heading { display:flex; justify-content:space-between; align-items:start; gap:24px; margin-bottom:36px; }
+.admin-return { font-size:17px; }
+.admin-text-button { background:white; border:1px solid var(--line); border-radius:5px; padding:12px 18px; font-size:16px; }
+.admin-field { display:flex; flex-direction:column; gap:8px; margin-bottom:20px; }
+.admin-field label { font-size:16px; font-weight:600; }
+.admin-field input, .admin-field select, .admin-field textarea { width:100%; padding:12px 14px; min-height:48px; border:1px solid #c8c8c8; border-radius:5px; background:white; color:var(--ink); font:17px/1.5 var(--sans); }
+.admin-field textarea { resize:vertical; }
+.admin-field input:focus, .admin-field select:focus { border-color:var(--burgundy); }
+.admin-grid { display:grid; grid-template-columns:1fr 1fr; gap:0 24px; }
+.admin-event-picker { max-width:440px; margin-bottom:34px; }
+.admin-wrap fieldset { padding:24px 0 12px; margin:0 0 24px; border:0; border-top:1px solid var(--line); min-width:0; }
+.admin-wrap legend { padding:0 18px 0 0; font:28px var(--serif); }
+.admin-hint { color:var(--muted); font-size:15px; }
+.admin-toggle { display:flex; align-items:center; gap:12px; margin:8px 0 30px; font-size:17px; }
+.admin-toggle input { width:20px; height:20px; accent-color:var(--burgundy); }
+.admin-save { border-top:1px solid var(--line); padding-top:24px; display:flex; flex-wrap:wrap; gap:18px; align-items:center; }
+.admin-save #admin-message { width:100%; }
+#admin-message, #social-message { font-size:16px; color:var(--burgundy); margin:12px 0; }
+#admin-message[data-kind="success"], #social-message[data-kind="success"] { color:#286343; }
+.admin-social { border-top:1px solid var(--line); margin-top:64px; padding-top:44px; }
+.admin-social h2 { font-size:40px; letter-spacing:-1px; }
+.admin-social form { margin-top:32px; }
+.reel-editor-actions { display:flex; gap:12px; flex-wrap:wrap; }
+.reel-editor .admin-toggle { margin-bottom:20px; }
+.admin-empty { color:var(--muted); font-size:17px; margin-bottom:24px; }
+.admin-social .admin-save { margin-top:24px; }
+.admin-social > form > .admin-hint { margin-top:18px; }
+.admin-social .admin-save [role="status"] { width:100%; }
+.admin-submit { width:100%; margin-top:12px; }
+.admin-section-nav { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 18px; }
+.admin-section-nav a { border:1px solid var(--line); border-radius:5px; padding:10px 14px; font-size:15px; min-height:44px; color:var(--burgundy); }
+.admin-section-nav a:hover { background:#fcf8f4; }
+.dirty-status { padding:10px 14px; border-left:3px solid #286343; background:#f6faf7; color:#286343; font-size:15px; margin-bottom:24px; }
+.dirty-status[data-dirty="true"] { color:var(--burgundy); border-color:var(--burgundy); background:#fcf8f4; }
+.date-review-notice { padding:14px; font-size:15px; color:var(--burgundy); background:#fcf8f4; margin-top:16px; }
+.admin-review { border:1px solid var(--line); border-radius:6px; margin:24px 0; background:#fcf8f4; }
+.admin-review summary { padding:16px 18px; cursor:pointer; color:var(--burgundy); font-size:17px; }
+.draft-summary { padding:0 18px 14px; }
+.draft-summary p { margin-top:8px; font-size:16px; }
+.draft-summary p:first-child { font:26px var(--serif); color:var(--burgundy); }
+.admin-review > .admin-hint { margin:0 18px; }
+.admin-review pre { margin:14px 18px 18px; padding:16px; border:1px solid var(--line); background:white; font:15px/1.6 var(--sans); white-space:pre-wrap; overflow-wrap:anywhere; }
+@media(max-width:640px) {
+  .admin-wrap { margin-top:32px; }
+  .admin-wrap h1 { font-size:36px; }
+  .admin-grid { grid-template-columns:1fr; }
+  .admin-heading { flex-direction:column; gap:18px; }
+  .admin-login { margin-top:32px; }
+  .admin-wrap legend { font-size:25px; }
+  .admin-save .button { width:100%; }
+}

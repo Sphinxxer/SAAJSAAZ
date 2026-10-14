@@ -1,0 +1,76 @@
+{
+  "brand": "SAAJSAAZ",
+  "tagline": "Thoughtfully made celebrations.",
+  "whatsapp": "919460222677",
+  "featuredEvent": "raas-garba-2026",
+  "events": [
+    {
+      "slug": "raas-garba-2026",
+      "title": "Raas Garba 2026",
+      "displayTitle": "Raas Garba",
+      "year": "2026",
+      "headline": "Dandiya in hand. Garba in your heart.",
+      "description": "Two evenings of Garba, music and celebration in Merta City.",
+      "intro": "Two nights. One pass. Celebrate with SAAJSAAZ.",
+      "startsAt": "2026-10-17T18:00:00+05:30",
+      "endsAt": "2026-10-18T21:00:00+05:30",
+      "dailyTime": "6 PM – 9 PM",
+      "timezone": "Asia/Kolkata",
+      "city": "Merta City",
+      "venue": "Bungalow, Near Jwala Medical, Gandhi Chowk, Merta City.",
+      "passNote": "Each pass includes entry on both event days.",
+      "bookingEnabled": true,
+      "whatsapp": "919460222677",
+      "passes": [
+        {
+          "id": "kids",
+          "label": "Kids pass",
+          "shortLabel": "Kids",
+          "price": 299
+        },
+        {
+          "id": "adult",
+          "label": "Adult pass",
+          "shortLabel": "Adults",
+          "price": 499
+        }
+      ],
+      "workshop": {
+        "title": "Garba workshop",
+        "note": "For event pass holders only. Keep your booking confirmation or pass ready.",
+        "sessions": [
+          {
+            "date": "2026-10-13",
+            "description": "Learn the steps"
+          },
+          {
+            "date": "2026-10-14",
+            "description": "Practise the rhythm"
+          }
+        ]
+      }
+    }
+  ],
+  "social": {
+    "reels": [
+      {
+        "id": "DeD44guvEK4",
+        "url": "https://www.instagram.com/reel/DeD44guvEK4/",
+        "caption": "Event announcement",
+        "enabled": true
+      },
+      {
+        "id": "DedjlJVBLsP",
+        "url": "https://www.instagram.com/reel/DedjlJVBLsP/",
+        "caption": "Workshop moments",
+        "enabled": true
+      },
+      {
+        "id": "Deb2U_zuNMD",
+        "url": "https://www.instagram.com/reel/Deb2U_zuNMD/",
+        "caption": "Garba practice",
+        "enabled": true
+      }
+    ]
+  }
+}
